@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Environment & Cache
+.env
+.env.*
+.cache
+.cache*
+
+
+# Data Artifacts
+data/raw/*.parquet
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+data/features/*.parquet
+data/models/*.joblib
+!data/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+.ds_store
